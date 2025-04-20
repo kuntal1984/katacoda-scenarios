@@ -11,4 +11,4 @@ git clone $git_repos_url/$arti_repos_dir.git
 
 cp -ar $proj_path/$arti_repos_dir/* $proj_path/$arti_dir/
 
-mv  $proj_path/$arti_repos_dir/ $proj_path/$arti_repos_dir_$datetime/
+mv  $proj_path/$arti_repos_dir/ $proj_path/${arti_repos_dir}_${datetime}/
