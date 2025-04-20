@@ -7,7 +7,7 @@ script_fil='script.sh'
 git_repos_url='https://github.com/kuntal1984'
 datetime=$(date '+%Y-%m-%d%H:%M:%S')
 
-cd $proj_path
+
 
 if test -f $proj_path/$script_dir/$script_repos_dir/$script_fil; then
      echo "File already exist! Do nothing"
