@@ -17,6 +17,6 @@ else
         if  test -f $proj_path/$script_dir/$script_repos_dir/$script_fil; then
                 chmod +x $proj_path/$script_dir/$script_repos_dir/$script_fil
                 sh  $proj_path/$script_dir/$script_repos_dir/$script_fil
-                mv  $proj_path/$script_dir/$script_repos_dir  $proj_path/$script_dir/${script_repos_dir}_${datetime}
+                mv  $proj_path/$script_dir/$script_repos_dir/  $proj_path/$script_dir/${script_repos_dir}_${datetime}/
 	fi
 fi	
