@@ -6,7 +6,7 @@ script_dir='scripts'
 script_fil='script.sh'
 git_repos_url='https://github.com/kuntal1984'
 datetime=$(date '+%Y-%m-%d%H:%M:%S')
-script_flg = 'script_executed.flg'
+script_flg='script_executed.flg'
 
 
 if test -f $proj_path/$script_dir/$script_flg; then
