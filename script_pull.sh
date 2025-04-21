@@ -13,6 +13,7 @@ if test -f $proj_path/$script_dir/$script_flg; then
      echo "File already exist! Do nothing"
      
 else
+    cd $proj_path/$script_dir/ 
     git clone $git_repos_url/$script_repos_dir.git
         if  test -f $proj_path/$script_dir/$script_repos_dir/$script_fil; then
                 chmod +x $proj_path/$script_dir/$script_repos_dir/$script_fil
