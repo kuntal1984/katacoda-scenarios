@@ -10,7 +10,7 @@ script_flg='script_executed.flg'
 
 
 if test -f $proj_path/$script_dir/$script_flg; then
-     echo "File already exist! Do nothing"
+     echo "File already exist! Do nothing @ "${datetime}
      
 else
     cd $proj_path/$script_dir/ 
@@ -20,5 +20,7 @@ else
                 sh  $proj_path/$script_dir/$script_repos_dir/$script_fil
                 mv  $proj_path/$script_dir/$script_repos_dir/  $proj_path/$script_dir/${script_repos_dir}_${datetime}/
 		touch $proj_path/$script_dir/$script_flg
+                echo "artifacts pulled from repository @ "${datetime}
 	fi
+ 
 fi	
